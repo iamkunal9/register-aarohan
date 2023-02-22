@@ -6,7 +6,7 @@ function App() {
   function handleClick(clg){
     if(clg==='piet'){
       document.getElementById("info").innerHTML = "Registrations open soon";
-    // window.open("https://kunalsharma0553.pythonanywhere.com/login/google");
+
     }
     else{
       window.open("https://www.aarohanpce.com/");
