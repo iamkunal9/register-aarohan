@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <div class="container">
   <div class="center">
-    <p id="info">Click on respective collage</p>
+    <p id="info">Click on respective college</p>
   <div class="left-btn">
   <button class="glow-on-hover" type="button" onClick={() => handleClick('piet')}>PIET</button>
 </div>
