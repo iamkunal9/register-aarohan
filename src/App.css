@@ -1,3 +1,10 @@
+#box1{
+  display: none;
+}
+
+#box2{
+  display: none;
+}
 html,
 body {
     overflow:hidden;
