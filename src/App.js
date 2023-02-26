@@ -27,6 +27,17 @@ function App() {
     document.getElementById("box1").style.display = 'none';
     document.getElementById("box2").style.display = 'block';
   }
+  function goback(id){
+    if(id===0){
+    document.getElementById("box1").style.display = 'none';
+    document.getElementById("box").style.display = 'block';
+
+    }
+    else{
+      document.getElementById("box1").style.display = 'block';
+    document.getElementById("box2").style.display = 'none';
+    }
+  }
 
   return (
     <div className="App">
@@ -48,6 +59,7 @@ function App() {
           <div class="right-btn">
             <button class="glow-on-hover" type="button" onClick={() => handleClick('piet')}>Poornimaite</button>
           </div>
+          <p onClick={()=>goback(0)}>Back</p>
         </div>
         <div class="center" id="box2">
           {/* <p id="info">Click on respective college</p> */}
@@ -57,6 +69,7 @@ function App() {
           <div class="right-btn">
             <button class="glow-on-hover" type="button" onClick={() => handleClick('fashion')}>Fashion Show</button>
           </div>
+          <p onClick={()=>goback(1)}>Back</p>
         </div>
       </div>
 

@@ -105,6 +105,9 @@ p{
     
     
   }
+p{
+  cursor: pointer;
+}
 
   button{
     display: grid;
