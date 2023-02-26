@@ -46,7 +46,7 @@ function App() {
             <button class="glow-on-hover" type="button" onClick={() => show1()}>Outside</button>
           </div>
           <div class="right-btn">
-            <button class="glow-on-hover" type="button" onClick={() => handleClick('piet')}>Poornimite</button>
+            <button class="glow-on-hover" type="button" onClick={() => handleClick('piet')}>Poornimaite</button>
           </div>
         </div>
         <div class="center" id="box2">
