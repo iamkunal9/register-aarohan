@@ -45,7 +45,7 @@ function App() {
         <div class="center" id='box'>
           <p id="info">Click on respective college</p>
           <div class="left-btn">
-            <button class="glow-on-hover" type="button" onClick={() => show()}>PIET</button>
+            <button class="glow-on-hover" type="button" onClick={() => show()}>PIET/PGI</button>
           </div>
           <div class="right-btn">
             <button class="glow-on-hover" type="button" onClick={() => handleClick('ppp')}>PCE</button>
